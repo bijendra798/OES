@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="onlineEducationModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Attendance">
+    <Key>
+      <PropertyRef Name="AttendanceId" />
+    </Key>
+    <Property Name="AttendanceId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="PresentOrAbsent" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__Attendanc__Stude__35BCFE0A" FromRole="Attendance" ToRole="Student" />
+    <NavigationProperty Name="Student1" Relationship="Self.fk_Attendance_DeleteCascade" FromRole="Attendance" ToRole="Student" />
+    <NavigationProperty Name="Student2" Relationship="Self.fk_Attendance_UpdateCascade" FromRole="Attendance" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Principal">
+    <Key>
+      <PropertyRef Name="PrincipalId" />
+    </Key>
+    <Property Name="PrincipalId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MobileNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="EmailId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="JoiningDate" Type="DateTime" Precision="0" />
+    <Property Name="RoleId" Type="Int32" />
+    <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Lastlogin" Type="DateTime" Precision="3" />
+    <Property Name="LoginAttempt" Type="Int32" />
+    <NavigationProperty Name="UserRole" Relationship="Self.FK__Principal__RoleI__38996AB5" FromRole="Principal" ToRole="UserRoles" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="QuestionId" />
+    </Key>
+    <Property Name="QuestionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Qn" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Option1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Option2" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Option3" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Option4" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CorrectAns" Type="Int32" />
+    <Property Name="SubjectId" Type="Int32" />
+    <NavigationProperty Name="Subject" Relationship="Self.FK__Question__Subjec__398D8EEE" FromRole="Question" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="ReportId" />
+    </Key>
+    <Property Name="ReportId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubjectId" Type="Int32" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Score" Type="Int32" />
+    <Property Name="SubmittedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__Report__StudentI__3A81B327" FromRole="Report" ToRole="Student" />
+    <NavigationProperty Name="Subject" Relationship="Self.FK__Report__SubjectI__3B75D760" FromRole="Report" ToRole="Subject" />
+    <NavigationProperty Name="Student1" Relationship="Self.fk_roleId_StudentReportdeleteCascade" FromRole="Report" ToRole="Student" />
+    <NavigationProperty Name="Student2" Relationship="Self.fk_roleId_StudentReportupdateCascade" FromRole="Report" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MobileNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="EmailId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="RollNo" Type="Int32" />
+    <Property Name="JoiningDate" Type="DateTime" Precision="0" />
+    <Property Name="RoleId" Type="Int32" />
+    <Property Name="ParentsEmailId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ParentsMobileNo" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Lastlogin" Type="DateTime" Precision="0" />
+    <Property Name="LoginAttempt" Type="Int32" />
+    <NavigationProperty Name="Attendances" Relationship="Self.FK__Attendanc__Stude__35BCFE0A" FromRole="Student" ToRole="Attendance" />
+    <NavigationProperty Name="Attendances1" Relationship="Self.fk_Attendance_DeleteCascade" FromRole="Student" ToRole="Attendance" />
+    <NavigationProperty Name="Attendances2" Relationship="Self.fk_Attendance_UpdateCascade" FromRole="Student" ToRole="Attendance" />
+    <NavigationProperty Name="Reports" Relationship="Self.FK__Report__StudentI__3A81B327" FromRole="Student" ToRole="Report" />
+    <NavigationProperty Name="Reports1" Relationship="Self.fk_roleId_StudentReportdeleteCascade" FromRole="Student" ToRole="Report" />
+    <NavigationProperty Name="Reports2" Relationship="Self.fk_roleId_StudentReportupdateCascade" FromRole="Student" ToRole="Report" />
+    <NavigationProperty Name="UserRole" Relationship="Self.FK__Student__RoleId__3E52440B" FromRole="Student" ToRole="UserRoles" />
+    <NavigationProperty Name="UserRole1" Relationship="Self.fk_roleId_StudentdeleteCascade" FromRole="Student" ToRole="UserRoles" />
+    <NavigationProperty Name="UserRole2" Relationship="Self.fk_roleId_StudentUpdateCascade" FromRole="Student" ToRole="UserRoles" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="SubjectId" />
+    </Key>
+    <Property Name="SubjectId" Type="Int32" Nullable="false" />
+    <Property Name="SubjectName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK__Question__Subjec__398D8EEE" FromRole="Subject" ToRole="Question" />
+    <NavigationProperty Name="Reports" Relationship="Self.FK__Report__SubjectI__3B75D760" FromRole="Subject" ToRole="Report" />
+    <NavigationProperty Name="Teachers" Relationship="Self.FK__Teacher__Subject__4222D4EF" FromRole="Subject" ToRole="Teacher" />
+    <NavigationProperty Name="Teachers1" Relationship="Self.fk_subjectId_UpdateCascade" FromRole="Subject" ToRole="Teacher" />
+  </EntityType>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="TeacherId" />
+    </Key>
+    <Property Name="TeacherId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MobileNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="EmailId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Qualification" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SubjectId" Type="Int32" />
+    <Property Name="JoiningDate" Type="DateTime" Precision="0" />
+    <Property Name="Salary" Type="Int32" />
+    <Property Name="RoleId" Type="Int32" />
+    <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Lastlogin" Type="DateTime" Precision="3" />
+    <Property Name="LoginAttempts" Type="Int32" />
+    <NavigationProperty Name="Subject" Relationship="Self.FK__Teacher__Subject__4222D4EF" FromRole="Teacher" ToRole="Subject" />
+    <NavigationProperty Name="Subject1" Relationship="Self.fk_subjectId_UpdateCascade" FromRole="Teacher" ToRole="Subject" />
+    <NavigationProperty Name="UserRole" Relationship="Self.FK__Teacher__RoleId__412EB0B6" FromRole="Teacher" ToRole="UserRoles" />
+    <NavigationProperty Name="UserRole1" Relationship="Self.fk_roleId_deleteCascade" FromRole="Teacher" ToRole="UserRoles" />
+  </EntityType>
+  <EntityType Name="TimeTable">
+    <Key>
+      <PropertyRef Name="TimeTableId" />
+    </Key>
+    <Property Name="TimeTableId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Monday" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Tuesday" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Wednesday" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Thursday" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Friday" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Saturday" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Sunday" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Time" Type="Double" />
+  </EntityType>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="Loginid" />
+    </Key>
+    <Property Name="Loginid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="RoleId" Type="Int32" />
+    <Property Name="LastLogin" Type="DateTime" Precision="3" />
+    <Property Name="LoginAttempt" Type="Int32" />
+    <NavigationProperty Name="UserRole" Relationship="Self.FK__UserLogin__RoleI__44FF419A" FromRole="UserLogin" ToRole="UserRoles" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="RoleName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Principals" Relationship="Self.FK__Principal__RoleI__38996AB5" FromRole="UserRoles" ToRole="Principal" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Student__RoleId__3E52440B" FromRole="UserRoles" ToRole="Student" />
+    <NavigationProperty Name="Students1" Relationship="Self.fk_roleId_StudentdeleteCascade" FromRole="UserRoles" ToRole="Student" />
+    <NavigationProperty Name="Students2" Relationship="Self.fk_roleId_StudentUpdateCascade" FromRole="UserRoles" ToRole="Student" />
+    <NavigationProperty Name="Teachers" Relationship="Self.FK__Teacher__RoleId__412EB0B6" FromRole="UserRoles" ToRole="Teacher" />
+    <NavigationProperty Name="Teachers1" Relationship="Self.fk_roleId_deleteCascade" FromRole="UserRoles" ToRole="Teacher" />
+    <NavigationProperty Name="UserLogins" Relationship="Self.FK__UserLogin__RoleI__44FF419A" FromRole="UserRoles" ToRole="UserLogin" />
+  </EntityType>
+  <Association Name="FK__Attendanc__Stude__35BCFE0A">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Attendance_DeleteCascade">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Attendance_UpdateCascade">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Principal__RoleI__38996AB5">
+    <End Role="UserRoles" Type="Self.UserRole" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Principal" Type="Self.Principal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRoles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="Principal">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Question__Subjec__398D8EEE">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="0..1" />
+    <End Role="Question" Type="Self.Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Report__StudentI__3A81B327">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Report__SubjectI__3B75D760">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="0..1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_roleId_StudentReportdeleteCascade">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_roleId_StudentReportupdateCascade">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__RoleId__3E52440B">
+    <End Role="UserRoles" Type="Self.UserRole" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRoles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_roleId_StudentdeleteCascade">
+    <End Role="UserRoles" Type="Self.UserRole" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRoles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_roleId_StudentUpdateCascade">
+    <End Role="UserRoles" Type="Self.UserRole" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRoles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Teacher__Subject__4222D4EF">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="0..1" />
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="Teacher">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_subjectId_UpdateCascade">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="0..1" />
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="Teacher">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Teacher__RoleId__412EB0B6">
+    <End Role="UserRoles" Type="Self.UserRole" Multiplicity="0..1" />
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRoles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="Teacher">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_roleId_deleteCascade">
+    <End Role="UserRoles" Type="Self.UserRole" Multiplicity="0..1" />
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRoles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="Teacher">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserLogin__RoleI__44FF419A">
+    <End Role="UserRoles" Type="Self.UserRole" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserLogin" Type="Self.UserLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRoles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="UserLogin">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="onlineEducationEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Attendances" EntityType="Self.Attendance" />
+    <EntitySet Name="Principals" EntityType="Self.Principal" />
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="Reports" EntityType="Self.Report" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="Subjects" EntityType="Self.Subject" />
+    <EntitySet Name="Teachers" EntityType="Self.Teacher" />
+    <EntitySet Name="TimeTables" EntityType="Self.TimeTable" />
+    <EntitySet Name="UserLogins" EntityType="Self.UserLogin" />
+    <EntitySet Name="UserRoles" EntityType="Self.UserRole" />
+    <AssociationSet Name="FK__Attendanc__Stude__35BCFE0A" Association="Self.FK__Attendanc__Stude__35BCFE0A">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Attendance_DeleteCascade" Association="Self.fk_Attendance_DeleteCascade">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Attendance_UpdateCascade" Association="Self.fk_Attendance_UpdateCascade">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Principal__RoleI__38996AB5" Association="Self.FK__Principal__RoleI__38996AB5">
+      <End Role="UserRoles" EntitySet="UserRoles" />
+      <End Role="Principal" EntitySet="Principals" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Question__Subjec__398D8EEE" Association="Self.FK__Question__Subjec__398D8EEE">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="Question" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Report__StudentI__3A81B327" Association="Self.FK__Report__StudentI__3A81B327">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Report" EntitySet="Reports" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Report__SubjectI__3B75D760" Association="Self.FK__Report__SubjectI__3B75D760">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="Report" EntitySet="Reports" />
+    </AssociationSet>
+    <AssociationSet Name="fk_roleId_StudentReportdeleteCascade" Association="Self.fk_roleId_StudentReportdeleteCascade">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Report" EntitySet="Reports" />
+    </AssociationSet>
+    <AssociationSet Name="fk_roleId_StudentReportupdateCascade" Association="Self.fk_roleId_StudentReportupdateCascade">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Report" EntitySet="Reports" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__RoleId__3E52440B" Association="Self.FK__Student__RoleId__3E52440B">
+      <End Role="UserRoles" EntitySet="UserRoles" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="fk_roleId_StudentdeleteCascade" Association="Self.fk_roleId_StudentdeleteCascade">
+      <End Role="UserRoles" EntitySet="UserRoles" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="fk_roleId_StudentUpdateCascade" Association="Self.fk_roleId_StudentUpdateCascade">
+      <End Role="UserRoles" EntitySet="UserRoles" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Teacher__Subject__4222D4EF" Association="Self.FK__Teacher__Subject__4222D4EF">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="Teacher" EntitySet="Teachers" />
+    </AssociationSet>
+    <AssociationSet Name="fk_subjectId_UpdateCascade" Association="Self.fk_subjectId_UpdateCascade">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="Teacher" EntitySet="Teachers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Teacher__RoleId__412EB0B6" Association="Self.FK__Teacher__RoleId__412EB0B6">
+      <End Role="UserRoles" EntitySet="UserRoles" />
+      <End Role="Teacher" EntitySet="Teachers" />
+    </AssociationSet>
+    <AssociationSet Name="fk_roleId_deleteCascade" Association="Self.fk_roleId_deleteCascade">
+      <End Role="UserRoles" EntitySet="UserRoles" />
+      <End Role="Teacher" EntitySet="Teachers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserLogin__RoleI__44FF419A" Association="Self.FK__UserLogin__RoleI__44FF419A">
+      <End Role="UserRoles" EntitySet="UserRoles" />
+      <End Role="UserLogin" EntitySet="UserLogins" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

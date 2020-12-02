@@ -1,0 +1,6 @@
+projectKey=OnlineEducationSystem
+serverUrl=http://localhost:9000
+serverVersion=8.5.1.38104
+dashboardUrl=http://localhost:9000/dashboard?id=OnlineEducationSystem
+ceTaskId=AXYEHoAKs5K4Rpq6yFT2
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXYEHoAKs5K4Rpq6yFT2

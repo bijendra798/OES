@@ -1,0 +1,222 @@
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\OESApi.dll.config
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\OESApi.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\OESApi.pdb
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\csc.exe
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\csc.exe.config
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\csc.rsp
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\csi.exe
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\csi.exe.config
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\csi.rsp
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.AppContext.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Console.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.IO.Compression.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Net.Http.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.ValueTuple.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\vbc.exe
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\vbc.exe.config
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\vbc.rsp
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\Antlr3.Runtime.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\EntityFramework.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\EntityFramework.SqlServer.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\Newtonsoft.Json.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Net.Http.Formatting.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Cors.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Helpers.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Http.Cors.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Http.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Http.WebHost.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Mvc.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Optimization.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Razor.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.WebPages.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\WebGrease.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\EntityFramework.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\EntityFramework.SqlServer.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Http.Cors.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\Newtonsoft.Json.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Net.Http.Formatting.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Helpers.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Http.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Http.WebHost.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Mvc.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Optimization.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.Razor.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.WebPages.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\Antlr3.Runtime.pdb
+C:\Users\supravat\source\repos\OESApi\OESApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\supravat\source\repos\OESApi\OESApi\obj\Release\OESApi.csprojAssemblyReference.cache
+C:\Users\supravat\source\repos\OESApi\OESApi\obj\Release\OESApi.csproj.CoreCompileInputs.cache
+C:\Users\supravat\source\repos\OESApi\OESApi\obj\Release\OESApi.csproj.CopyComplete
+C:\Users\supravat\source\repos\OESApi\OESApi\obj\Release\OESApi.dll
+C:\Users\supravat\source\repos\OESApi\OESApi\obj\Release\OESApi.pdb
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\obj\Release\OESApi.csprojAssemblyReference.cache
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\obj\Release\OESApi.csproj.CoreCompileInputs.cache
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\obj\Release\OESApi.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\obj\Release\OESApi.pdb
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\OESApi.dll.config
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\OESApi.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\OESApi.pdb
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\csc.exe
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\csc.exe.config
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\csc.rsp
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\csi.exe
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\csi.exe.config
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\csi.rsp
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.Managed.Core.targets
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.AppContext.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Collections.Immutable.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Console.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Globalization.Calendars.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.IO.Compression.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.IO.FileSystem.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Net.Http.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Net.Sockets.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.ValueTuple.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Xml.XmlDocument.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Xml.XPath.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\vbc.exe
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\vbc.exe.config
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\vbc.rsp
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\VBCSCompiler.exe
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\roslyn\VBCSCompiler.exe.config
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Antlr3.Runtime.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\EntityFramework.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\EntityFramework.SqlServer.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Web.Infrastructure.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Newtonsoft.Json.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Net.Http.Formatting.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Cors.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Helpers.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Http.Cors.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Http.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Http.WebHost.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Mvc.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Optimization.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Razor.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.WebPages.Deployment.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.WebPages.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.WebPages.Razor.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\WebGrease.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\EntityFramework.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\EntityFramework.SqlServer.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Http.Cors.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Newtonsoft.Json.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Net.Http.Formatting.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Helpers.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Http.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Http.WebHost.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Mvc.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Optimization.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.Razor.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.WebPages.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.WebPages.Deployment.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Web.WebPages.Razor.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Antlr3.Runtime.pdb
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\obj\Release\OESApi.csproj.CopyComplete
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.AspNetCore.Cors.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.Options.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.Primitives.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Net.Http.Headers.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Owin.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Owin.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Buffers.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.ComponentModel.Annotations.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Memory.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Numerics.Vectors.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Text.Encodings.Web.dll
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.AspNetCore.Cors.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.Options.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Extensions.Primitives.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Net.Http.Headers.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Owin.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Buffers.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Memory.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Numerics.Vectors.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\MFSD-1_OnlineEducationSystem 1\MFSD-1_OnlineEducationSystem\OESApi\OESApi\bin\System.Text.Encodings.Web.xml

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="onlineEducationEntities-Web.config Connection String" description="onlineEducationEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.OES.csdl|res://*/Models.OES.ssdl|res://*/Models.OES.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-QJBALL7\SQLEXPRESS;initial catalog=onlineEducation;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\supravat\\source\\repos\\OESApi\\OESApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='onlineEducationEntities']/@connectionString" />
+  </parameter>
+</parameters>

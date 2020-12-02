@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c18f1d0c81b44d0b5646b90ed30dffa" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="onlineEducationModel.Attendance" Width="1.5" PointX="5.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlineEducationModel.Principal" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlineEducationModel.Question" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlineEducationModel.Report" Width="1.5" PointX="8.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlineEducationModel.Student" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlineEducationModel.Subject" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlineEducationModel.Teacher" Width="1.5" PointX="6" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlineEducationModel.TimeTable" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlineEducationModel.UserLogin" Width="1.5" PointX="3" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlineEducationModel.UserRole" Width="1.5" PointX="0.75" PointY="9.875" IsExpanded="true" />
+        <AssociationConnector Association="onlineEducationModel.FK__Attendanc__Stude__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.fk_Attendance_DeleteCascade" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.fk_Attendance_UpdateCascade" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.FK__Principal__RoleI__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.FK__Question__Subjec__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.FK__Report__StudentI__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.FK__Report__SubjectI__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.fk_roleId_StudentReportdeleteCascade" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.fk_roleId_StudentReportupdateCascade" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.FK__Student__RoleId__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.fk_roleId_StudentdeleteCascade" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.fk_roleId_StudentUpdateCascade" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.FK__Teacher__Subject__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.fk_subjectId_UpdateCascade" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.FK__Teacher__RoleId__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.fk_roleId_deleteCascade" ManuallyRouted="false" />
+        <AssociationConnector Association="onlineEducationModel.FK__UserLogin__RoleI__44FF419A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
